@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samin Affroze – Behavioral Scientist</title>
+  <meta name="description" content="Behavioral scientist using behavioral strategies to redesign conditions for systems and individuals." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="particles" class="bg-particles"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-logo">
+        <span class="logo-dot"></span>
+        <span class="logo-text">Samin Affroze</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#top" class="nav-link">Home</a></li>
+        <li><a href="#panels" class="nav-link">Story</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- HERO / LANDING PANEL -->
+  <header id="top" class="hero">
+    <div class="hero-tag">Behavioral science × systems</div>
+    <h1 class="hero-heading">I don&apos;t redesign people.<br />I redesign the conditions around them.</h1>
+    <p class="hero-text">I use behavioral strategies to make the right behavior feel natural—on campuses, in cities, and inside digital products.</p>
+    <div class="hero-strip">
+      <button class="hero-cta" data-scroll="#panels">Scroll the story ↓</button>
+      <div class="hero-meta">
+        <span>Research</span>
+        <span>Policy</span>
+        <span>Trust &amp; Safety</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- VISUAL STORY PANELS (like slow-fashion template) -->
+  <section id="panels" class="panels">
+    <div class="panel panel-one">
+      <div class="panel-image panel-image-one"></div>
+      <div class="panel-copy">
+        <h2>Bodies in rooms.</h2>
+        <p>Occupational therapy taught me to read the tiny design decisions in hospital rooms, homes, and classrooms—how a doorway, a grab bar, or a schedule can quietly change what someone is able to do.</p>
+        <p class="panel-tag">Origin · Human body, human stories</p>
+      </div>
+    </div>
+
+    <div class="panel panel-two">
+      <div class="panel-copy">
+        <h2>Systems, not willpower.</h2>
+        <p>Applied behavior analysis shifted my gaze from individuals to environments. I stopped blaming &ldquo;non‑compliance&rdquo; and started treating it as data about the system.</p>
+        <p class="panel-tag">Shift · From interventions to strategies</p>
+      </div>
+      <div class="panel-image panel-image-two"></div>
+    </div>
+
+    <div class="panel panel-three">
+      <div class="panel-image panel-image-three"></div>
+      <div class="panel-copy">
+        <h2>Screens as environments.</h2>
+        <p>Now I treat AI tools and platforms like places: they need diagnostics, boundaries, and small design choices that add up to safer, more humane behavior.</p>
+        <p class="panel-tag">Now · Sustainability, safety, AI</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT STRIP (horizontal-feel cards) -->
+  <section id="projects" class="section projects">
+    <div class="section-head">
+      <p class="eyebrow">Selected work</p>
+      <h2 class="section-title">Behavioral strategies in the wild.</h2>
+    </div>
+
+    <div class="project-row">
+      <!-- 1 -->
+      <article class="project-card" data-animate="true">
+        <p class="badge badge-teal">Campus sustainability</p>
+        <h3>Bins that do half the work.</h3>
+        <p class="project-text">On a zero‑waste campus, I redesigned bin placement and prompts so recycling accuracy improved by <strong>17.4%</strong> without asking students to care more.</p>
+        <div class="mini-bar">
+          <div class="mini-bar-fill before" data-width="40"></div>
+          <div class="mini-bar-fill after" data-width="57"></div>
+        </div>
+        <p class="mini-labels"><span>Before</span><span>After</span></p>
+      </article>
+
+      <!-- 2 -->
+      <article class="project-card" data-animate="true">
+        <p class="badge badge-crimson">AI diagnostics</p>
+        <h3>Auditing large language models like teams.</h3>
+        <p class="project-text">I adapted a performance checklist from organizational behavior analysis to map where LLMs drift, bias, or fail quietly—and to give product, policy, and research a shared language.</p>
+        <div class="mini-bars-stack">
+          <div class="mini-pill" data-width="30"></div>
+          <div class="mini-pill" data-width="60"></div>
+          <div class="mini-pill" data-width="85"></div>
+        </div>
+        <p class="mini-caption">From ad‑hoc checks to layered diagnostics.</p>
+      </article>
+
+      <!-- 3 -->
+      <article class="project-card" data-animate="true">
+        <p class="badge badge-gold">Digital safety for minors</p>
+        <h3>What hyper‑saturated kids&apos; content does to attention.</h3>
+        <p class="project-text">A strategic brief translating developmental science into practical guidance for teams designing children&apos;s content and policies.</p>
+        <div class="mini-ring" data-ring="72">
+          <svg viewBox="0 0 100 100">
+            <circle class="ring-bg" cx="50" cy="50" r="40" />
+            <circle class="ring-fg" cx="50" cy="50" r="40" />
+          </svg>
+          <div class="mini-ring-label">72%<span>of sampled videos showed at least one risk factor.</span></div>
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="project-card" data-animate="true">
+        <p class="badge badge-warm">Transit &amp; climate</p>
+        <h3>Nudging event‑day transit without shouting.</h3>
+        <p class="project-text">Using SQL on ridership data to test gentle changes to timing, pricing, and messaging that move people toward lower‑carbon options.</p>
+        <div class="mini-bar wide">
+          <div class="mini-bar-fill before" data-width="45"></div>
+          <div class="mini-bar-fill after" data-width="65"></div>
+        </div>
+        <p class="mini-labels"><span>Baseline</span><span>Target</span></p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA STRIP -->
+  <section id="contact" class="section contact">
+    <div class="contact-inner">
+      <div class="contact-copy">
+        <h2>Let&apos;s work on the systems that shape behavior.</h2>
+        <p>I&apos;m open to roles and collaborations in applied research, Trust &amp; Safety, behavioral strategy, and AI‑adjacent work.</p>
+      </div>
+      <div class="contact-actions">
+        <a href="mailto:samin.1997@gmail.com" class="contact-pill">Email</a>
+        <a href="https://linkedin.com/in/samin-affroze" target="_blank" class="contact-pill">LinkedIn</a>
+        <a href="https://medium.com/@saminaffroze" target="_blank" class="contact-pill">Writing</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Samin Affroze.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
