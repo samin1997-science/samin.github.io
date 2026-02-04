@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samin Affroze - Behavioral Scientist & Human Systems Researcher</title>
+    <meta name="description" content="Behavioral scientist and researcher specializing in systems-level interventions, digital safety, AI auditing, and sustainability behavior change.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Floating Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-initial">S</span>
+                <span class="logo-text">Samin Affroze</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#writing" class="nav-link">Writing</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Parallax Effect -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="cloud-layer"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-label fade-in-up" style="animation-delay: 0.2s">Behavioral Scientist</div>
+            <h1 class="hero-title fade-in-up" style="animation-delay: 0.4s">
+                Samin Affroze
+            </h1>
+            <div class="hero-divider fade-in-up" style="animation-delay: 0.6s"></div>
+            <p class="hero-tagline fade-in-up" style="animation-delay: 0.8s">
+                Evidence → Strategy → Impact
+            </p>
+            <p class="hero-description fade-in-up" style="animation-delay: 1s">
+                I design research-driven interventions that change systems, not just individuals. 
+                My work spans sustainability behavior, digital safety, and responsible AI—bridging 
+                academic rigor and operational reality.
+            </p>
+            <div class="hero-buttons fade-in-up" style="animation-delay: 1.2s">
+                <a href="#research" class="btn btn-primary">
+                    <span>View Research</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+                <a href="#writing" class="btn btn-secondary">
+                    <span>Read Writing</span>
+                </a>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator fade-in" style="animation-delay: 1.5s">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <p>Scroll to explore</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section with Image Reveal -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title reveal-text">Who I Am</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="lead-text">I'm a behavioral scientist trained in applied behavior analysis and occupational science, currently working at the intersection of research, policy, and technology.</p>
+
+                    <p>My work is grounded in a simple conviction: <strong>behavioral interventions fail when they target individuals instead of systems</strong>. Whether I'm studying waste disposal on a university campus or auditing AI outputs for bias, I focus on environmental design, stakeholder alignment, and iterative feedback loops that make the right choice the easy choice.</p>
+
+                    <p>I've collaborated with academic institutions, public schools, healthcare systems, and government stakeholders. I use mixed-methods research, SQL-based analysis, and behavioral economics to identify root causes, test interventions, and translate findings into operational strategy.</p>
+
+                    <div class="highlight-box">
+                        <div class="highlight-icon">💡</div>
+                        <p><strong>I care about work that is rigorous, equitable, and implementable.</strong> I'm not interested in research that lives in journals. I'm interested in research that changes outcomes.</p>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card" data-animate="true">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card" data-animate="true">
+                        <div class="stat-number" data-target="4">0</div>
+                        <div class="stat-label">Research Projects</div>
+                    </div>
+                    <div class="stat-card" data-animate="true">
+                        <div class="stat-number" data-target="4">0</div>
+                        <div class="stat-label">Conference Presentations</div>
+                    </div>
+                    <div class="stat-card" data-animate="true">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Publications</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section with Hover Effects -->
+    <section id="research" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title reveal-text">Selected Work</h2>
+            </div>
+
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="sustainability">
+                    <div class="project-header">
+                        <span class="project-number">01</span>
+                        <div class="project-tags">
+                            <span class="tag">Mixed Methods</span>
+                            <span class="tag">Policy Design</span>
+                            <span class="tag">Behavior Change</span>
+                        </div>
+                    </div>
+
+                    <h3 class="project-title">Campus Sustainability Behavior Change</h3>
+
+                    <div class="project-content">
+                        <div class="project-section">
+                            <strong>Context</strong>
+                            <p>Led mixed-methods research to improve recycling accuracy on a university campus pursuing zero-waste goals.</p>
+                        </div>
+
+                        <div class="project-section">
+                            <strong>Approach</strong>
+                            <p>Conducted contextual inquiries, designed a multi-component intervention (signage, education, restructured bin placement), and used single-subject experimental design to measure impact.</p>
+                        </div>
+
+                        <div class="project-impact">
+                            <div class="impact-stat">
+                                <span class="impact-number">17.4%</span>
+                                <span class="impact-label">Improvement in recycling accuracy</span>
+                            </div>
+                        </div>
+
+                        <div class="project-methods">
+                            <em>Methods: Qualitative interviews, observational data, SPSS analysis, stakeholder reporting</em>
+                        </div>
+                    </div>
+
+                    <div class="project-overlay"></div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-header">
+                        <span class="project-number">02</span>
+                        <div class="project-tags">
+                            <span class="tag">AI Auditing</span>
+                            <span class="tag">Bias Detection</span>
+                            <span class="tag">Systems Analysis</span>
+                        </div>
+                    </div>
+
+                    <h3 class="project-title">AI System Performance Diagnostics</h3>
+
+                    <div class="project-content">
+                        <div class="project-section">
+                            <strong>Context</strong>
+                            <p>Adapted the Performance Diagnostic Checklist (PDC)—a tool from organizational behavior analysis—to audit large language model (LLM) outputs for bias and systemic failure modes.</p>
+                        </div>
+
+                        <div class="project-section">
+                            <strong>Approach</strong>
+                            <p>Systematically tested LLM responses across demographic and contextual variables to identify patterns of inconsistency and bias.</p>
+                        </div>
+
+                        <div class="project-impact">
+                            <div class="impact-highlight">
+                                Developed a replicable framework for responsible AI auditing that bridges behavioral science and machine learning governance.
+                            </div>
+                        </div>
+
+                        <div class="project-methods">
+                            <em>Methods: Behavioral diagnostics, bias evaluation, root cause analysis</em>
+                        </div>
+                    </div>
+
+                    <div class="project-overlay"></div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="safety">
+                    <div class="project-header">
+                        <span class="project-number">03</span>
+                        <div class="project-tags">
+                            <span class="tag">Policy Analysis</span>
+                            <span class="tag">Child Safety</span>
+                            <span class="tag">Risk Assessment</span>
+                        </div>
+                    </div>
+
+                    <h3 class="project-title">Digital Safety for Minors</h3>
+
+                    <div class="project-content">
+                        <div class="project-section">
+                            <strong>Context</strong>
+                            <p>Authored a strategic policy brief analyzing the behavioral risks of highly saturated animated content for children on digital platforms.</p>
+                        </div>
+
+                        <div class="project-section">
+                            <strong>Approach</strong>
+                            <p>Applied developmental psychology and behavioral economics to assess risks; synthesized evidence into actionable policy recommendations.</p>
+                        </div>
+
+                        <div class="project-impact">
+                            <div class="impact-highlight">
+                                Informed platform safety protocol design and stakeholder education on child-centered content moderation.
+                            </div>
+                        </div>
+
+                        <div class="project-methods">
+                            <em>Methods: Literature synthesis, risk assessment, policy analysis</em>
+                        </div>
+                    </div>
+
+                    <div class="project-overlay"></div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="ongoing">
+                    <div class="project-header">
+                        <span class="project-number">04</span>
+                        <div class="project-tags">
+                            <span class="tag">SQL Analysis</span>
+                            <span class="tag">Behavioral Economics</span>
+                            <span class="tag status-ongoing">Ongoing</span>
+                        </div>
+                    </div>
+
+                    <h3 class="project-title">Public Transit Behavioral Nudging</h3>
+
+                    <div class="project-content">
+                        <div class="project-section">
+                            <strong>Context</strong>
+                            <p>Analyzing public transit usage data for government stakeholders to design ridership incentives for major international events (details confidential).</p>
+                        </div>
+
+                        <div class="project-section">
+                            <strong>Approach</strong>
+                            <p>Using SQL for complex querying and data aggregation; applying behavioral economics to interpret patterns and design nudges.</p>
+                        </div>
+
+                        <div class="project-status">
+                            <div class="status-badge">In Progress</div>
+                        </div>
+
+                        <div class="project-methods">
+                            <em>Methods: SQL data analysis, behavioral economics, incentive design</em>
+                        </div>
+                    </div>
+
+                    <div class="project-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writing Section -->
+    <section id="writing" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title reveal-text">Thinking Out Loud</h2>
+            </div>
+
+            <p class="section-intro">I write to clarify my thinking and share frameworks that others might find useful. Some of this is polished. Some of it is provisional. All of it is honest.</p>
+
+            <div class="writing-grid">
+                <a href="https://medium.com/@saminaffroze" target="_blank" class="writing-card">
+                    <div class="writing-icon">📝</div>
+                    <h3>Medium Essays</h3>
+                    <p>Long-form reflections on behavioral science, policy, and research practice</p>
+                    <div class="card-arrow">→</div>
+                </a>
+
+                <a href="https://pitch-dolomite-0e8.notion.site/Strategic-Policy-Brief-on-Behavioral-Risks-of-Highly-Saturated-Animated-Videos-for-Children-2185d723caac804895e8f89b5d282e83" target="_blank" class="writing-card">
+                    <div class="writing-icon">📄</div>
+                    <h3>Policy Briefs</h3>
+                    <p>Strategic analysis on digital safety and behavioral risk</p>
+                    <div class="card-arrow">→</div>
+                </a>
+            </div>
+
+            <div class="quote-block">
+                <div class="quote-mark">"</div>
+                <p class="quote-text">Shoot your shot. Find your muse.</p>
+                <p class="quote-attribution">— Philosophy on action and creativity</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title reveal-text">Peer-Reviewed Work</h2>
+            </div>
+
+            <div class="publications-content">
+                <div class="pub-category">
+                    <h3 class="subsection-title">Publications</h3>
+                    <div class="publication-list">
+                        <div class="publication-item">
+                            <div class="pub-year">2024</div>
+                            <div class="pub-details">
+                                <strong>Affroze, S.</strong> (2024). <em>Evaluating the Effects of a Treatment Package on Recyclable and Organic Waste Disposal on a University Campus</em>. ProQuest Dissertations & Theses.
+                                <a href="https://www.proquest.com/docview/3133168873?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses" target="_blank" class="pub-link">View Publication →</a>
+                            </div>
+                        </div>
+
+                        <div class="publication-item">
+                            <div class="pub-year">2021</div>
+                            <div class="pub-details">
+                                <strong>Sau, K., Affroze, S. S., Bal, R. R., & Singh, P. P.</strong> (2021). <em>Use of Katz Index of Independence in Activities of Daily Living in Older Adults: A Scoping Review</em>. Manipal Digital Repository.
+                                <a href="https://impressions.manipal.edu/mcph/105" target="_blank" class="pub-link">View Publication →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pub-category">
+                    <h3 class="subsection-title">Conference Presentations</h3>
+                    <div class="conference-grid">
+                        <div class="conference-item">
+                            <div class="conference-name">Society for Personality and Social Psychology</div>
+                            <div class="conference-details">Sustainability Preconference, Denver, CO</div>
+                            <div class="conference-date">February 2025</div>
+                        </div>
+
+                        <div class="conference-item">
+                            <div class="conference-name">California Applied Behavior Analysis Conference</div>
+                            <div class="conference-details">Los Angeles, CA</div>
+                            <div class="conference-date">March 2025</div>
+                        </div>
+
+                        <div class="conference-item">
+                            <div class="conference-name">American Psychological Association</div>
+                            <div class="conference-details">Denver, CO</div>
+                            <div class="conference-date">August 2025</div>
+                        </div>
+
+                        <div class="conference-item">
+                            <div class="conference-name">Behavior, Energy, and Climate Change</div>
+                            <div class="conference-details">Sacramento, CA</div>
+                            <div class="conference-date">November 2025</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-download-section">
+                    <p>For a full record of my academic and professional background</p>
+                    <a href="#" class="btn btn-primary">
+                        <span>Download CV</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 3v10m0 0l-4-4m4 4l4-4M4 17h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title reveal-text">Let's Talk</h2>
+            </div>
+
+            <div class="contact-content">
+                <p class="contact-intro">I'm open to research collaborations, consulting on behavioral strategy and policy design, speaking opportunities, and roles in UX research, Trust & Safety, and applied behavioral science in tech.</p>
+
+                <div class="contact-grid">
+                    <a href="mailto:samin.1997@gmail.com" class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-label">Email</div>
+                        <div class="contact-value">samin.1997@gmail.com</div>
+                    </a>
+
+                    <a href="https://linkedin.com/in/samin-affroze" target="_blank" class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-label">LinkedIn</div>
+                        <div class="contact-value">linkedin.com/in/samin-affroze</div>
+                    </a>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-label">Location</div>
+                        <div class="contact-value">Los Angeles, CA<br><span style="font-size: 0.9em; opacity: 0.7;">(open to relocation)</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Samin Affroze. All rights reserved.</p>
+            <p class="footer-tagline">Designing systems that shape behavior.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
